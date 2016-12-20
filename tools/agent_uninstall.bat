@@ -1,4 +1,7 @@
 @echo off
+
+REM this is the original unintall script that has been ported to chocolatey
+
 REM agent_uninstall.bat
 REM
 REM A wrapper script for calling agent_uninstall.pyc with the proper python path 
