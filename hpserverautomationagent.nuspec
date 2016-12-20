@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>HPServerAutomationAgent</id>
+    <title>HPServerAutomationAgent (Install)</title>
+    <version>45.0.47353.0</version>
+    <authors>Hewlett-Packard</authors>
+    <owners>Joey Piccola</owners>
+    <summary>Installs the HP Server Automation Agent</summary>
+    <description>Install the HP Server Automation Agent from an installer artifact</description>
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
