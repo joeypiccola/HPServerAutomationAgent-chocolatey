@@ -8,7 +8,8 @@ $validExitCodes = @(0, 3010, 1605, 1614, 1641)
 $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
 
-if ($key.Count -eq 1) {
+if ($key.Count -eq 1)
+{
     $key | % { 
         $file = "$($_.UninstallString)"  
         if ($installerType -eq 'MSI') {
