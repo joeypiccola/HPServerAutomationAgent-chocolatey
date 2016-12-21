@@ -1,6 +1,6 @@
 #HP Server Automation Chocolatey Package
 
-This is a Chocolatey package to install and uninstall the HP Server Automation Agent.
+This is a Chocolatey package to install and uninstall the HP Server Automation Agent (HPSA).
 
 ###Install
 The install is standard with the exception of a custom switch in place to detect the local system hostname which will then determine what gateway will be used for the install. 
